@@ -24,5 +24,6 @@
   "license": "MIT",
   "engine": {
     "node": ">= 0.6.0 < 0.9.11-"
-  }
+  },
+  "scripts":{"test" : "nodeunit src/SpahQL-edge.js test"}
 }

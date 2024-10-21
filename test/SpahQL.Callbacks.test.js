@@ -21,7 +21,7 @@ exports["SpahQL.Callbacks"] = {
 
       test.equal(result.value(), hsh);
 
-      test.deepEqual(subpaths, ["/a/cc", "/a/bb", "/a"]);
+      test.deepEqual(subpaths, ["/a/bb", "/a/cc", "/a"]);
       test.done();
     });
 
